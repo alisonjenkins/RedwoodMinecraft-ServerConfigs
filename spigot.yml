@@ -11,22 +11,22 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 3
+commands:
+  spam-exclusions:
+  - /skill
+  log: true
+  tab-complete: true
 settings:
   bungeecord-addresses:
   - 127.0.0.1
   bungeecord: true
-  log-filters:
-  - ^(.*)(/login)(.*)$
-  prevent-proxies: false
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./bin/restart_cmd
+  log-filters:
+  - ^(.*)(/login)(.*)$
+  prevent-proxies: false
   netty-threads: 4
-commands:
-  log: true
-  spam-exclusions:
-  - /skill
-  tab-complete: true
 listeners:
 - port: default
   host: default
@@ -47,15 +47,6 @@ world-settings:
       misc: 32
       other: 64
     random-light-updates: false
-    save-mineshaft-structure-info: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
     anti-xray:
       engine-mode: 1
       blocks:
@@ -74,19 +65,28 @@ world-settings:
       - 82
       - 129
       - 130
-    mob-spawn-range: 4
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
     entity-activation-range:
       animals: 32
       monsters: 32
       misc: 16
-    merge-radius:
-      item: 2.5
-      exp: 3.0
-    item-despawn-rate: 6000
-    view-distance: 10
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+    save-mineshaft-structure-info: false
+    mob-spawn-range: 4
     chunks-per-tick: 650
+    merge-radius:
+      exp: 3.0
+      item: 2.5
+    view-distance: 10
+    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     save-structure-info: true

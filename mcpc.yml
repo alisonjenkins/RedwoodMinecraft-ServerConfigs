@@ -76,50 +76,54 @@ world-settings:
     infinite-water-source: true
     flowing-lava-decay: false
     despawn-immediate: true
-    worldgen-ExtrabiomesXL-QuicksandGenerator: true
     worldgen-Metallurgy3Vanilla-OreInfo: true
-    worldgen-emashercore-WorldGenPondScum: true
-    worldgen-GalacticraftCore-GCCoreOverworldGenerator: true
-    worldgen-NetherStuffs-WorldGenDefaultMinable: true
     worldgen-arsmagica2-AM2WorldDecorator: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-emashercore-WorldGenHemp: true
-    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
-    worldgen-Natura-BaseCropWorldgen: true
-    worldgen-flenixcities-WorldGen: true
-    worldgen-gregtechaddon-GT_Worldgenerator: true
-    worldgen-TEOreGen-WorldGenDefaultMinable: true
-    worldgen-Natura-BaseTreeWorldgen: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-MagicBees-WorldGeneratorHandler: true
-    worldgen-ExtrabiomesXL-LeafPileGenerator: true
-    worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-ExtrabiomesXL-LegendOakGenerator: true
-    worldgen-ExtrabiomesXL-OilGenerator: true
-    worldgen-Natura-BaseCloudWorldgen: true
-    worldgen-Chisel-MarbleWorldGenerator: true
-    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
-    worldgen-PneumaticCraft-WorldGeneratorPneumaticCraft: true
-    worldgen-ExtrabiomesXL-MarshGenerator: true
-    worldgen-ExtrabiomesXL-MountainDesertGenerator: true
-    worldgen-Forestry-WorldGenerator: true
-    worldgen-CoFHWorld-WorldHandler: true
+    worldgen-GalacticraftCore-GCCoreOverworldGenerator: true
     worldgen-ExtendedFuels-WorldGeneratorToffite: true
+    worldgen-NetherStuffs-WorldGenDefaultMinable: true
+    worldgen-Natura-BaseCropWorldgen: true
+    worldgen-DeadlyWorld-WorldGenerator: true
+    worldgen-Chisel-MarbleWorldGenerator: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-PneumaticCraft-WorldGeneratorPneumaticCraft: true
+    worldgen-ExtrabiomesXL-OilGenerator: true
+    worldgen-MagicBees-WorldGeneratorHandler: true
+    worldgen-ExtrabiomesXL-MountainDesertGenerator: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-NetherStuffs-WorldGenNetherStuffsTrees: true
+    worldgen-IC2-IC2: true
+    worldgen-witchery-WitcheryWorldGenerator: true
     worldgen-ExtrabiomesXL-FlowerGenerator: true
     worldgen-chococraft-WorldGenGysahls: true
-    worldgen-AppliedEnergistics-AppEng: true
-    worldgen-ExtrabiomesXL-MountainRidgeGenerator: true
-    worldgen-NetherStuffs-WorldGenNetherStuffsTrees: true
-    worldgen-emashercore-WorldGenMine: true
-    worldgen-DartCraft-DartWorldGen: true
+    worldgen-ExtrabiomesXL-LegendOakGenerator: true
     worldgen-ProjRedExploration-GenerationManager: true
-    worldgen-FlenixRoads-WorldGen: true
-    worldgen-IC2-IC2: true
-    worldgen-ExtraBees-ModuleGeneration: true
-    worldgen-StargateTech2-CoreWorldGenerator: true
+    worldgen-DartCraft-DartWorldGen: true
     worldgen-ExtrabiomesXL-CatTailGenerator: true
-    worldgen-factorization-: true
+    worldgen-CoFHWorld-WorldHandler: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-AppliedEnergistics-AppEng: true
+    worldgen-gregtechaddon-GT_Worldgenerator: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-Mariculture-WorldGenHandler: true
+    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
+    worldgen-Mariculture-WorldGen: true
+    worldgen-ExtrabiomesXL-LeafPileGenerator: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-Natura-BaseCloudWorldgen: true
     worldgen-MineFactoryReloaded-MineFactoryReloadedWorldGen: true
+    worldgen-ExtrabiomesXL-MarshGenerator: true
+    worldgen-ExtrabiomesXL-MountainRidgeGenerator: true
+    worldgen-ExtrabiomesXL-QuicksandGenerator: true
+    worldgen-factorization-: true
+    worldgen-TEOreGen-WorldGenDefaultMinable: true
+    worldgen-emashercore-WorldGenHemp: true
+    worldgen-emashercore-WorldGenMine: true
+    worldgen-emashercore-WorldGenPondScum: true
+    worldgen-StargateTech2-CoreWorldGenerator: true
+    worldgen-flenixcities-WorldGen: true
+    worldgen-FlenixRoads-WorldGen: true
     worldgen-BasicComponents-OreGenerator: true
     worldgen-BinnieCore-ModuleGeneration: true
     worldgen-QuantumCraft-QuantumOreGenerator: true
@@ -225,12 +229,6 @@ tick-intervals:
       TickHandlerMailClient: 1
     core:
       TickHandlerCoreServer: 1
-  factorization:
-    common:
-      Registry: 1
-    misc:
-      MiscellaneousNonsense: 1
-      Embarkener: 1
   thaumcraft:
     common:
       lib:
@@ -368,10 +366,6 @@ tick-intervals:
   toolbelts:
     handlers:
       CommonTickHandler: 1
-  xk:
-    xact:
-      network:
-        GuiTickHandler: 1
   buildcraft:
     core:
       TickHandlerCoreClient: 1
@@ -398,3 +392,13 @@ tick-intervals:
         core:
           tick:
             GCCoreTickHandlerServer: 1
+  factorization:
+    common:
+      Registry: 1
+    misc:
+      MiscellaneousNonsense: 1
+      Embarkener: 1
+  xk:
+    xact:
+      network:
+        GuiTickHandler: 1
